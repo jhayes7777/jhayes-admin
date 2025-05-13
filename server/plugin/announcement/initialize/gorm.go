@@ -10,9 +10,7 @@ import (
 )
 
 func Gorm(ctx context.Context) {
-	err := global.GVA_DB.WithContext(ctx).AutoMigrate(
-		new(model.Info),
-	)
+	err := global.GVA_DB.WithContext(ctx).AutoMigrate(new(model.Info), model.Asdasdas{})
 	if err != nil {
 		err = errors.Wrap(err, "注册表失败!")
 		zap.L().Error(fmt.Sprintf("%+v", err))

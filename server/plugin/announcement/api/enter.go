@@ -3,8 +3,12 @@ package api
 import "github.com/flipped-aurora/gin-vue-admin/server/plugin/announcement/service"
 
 var (
-	Api         = new(api)
-	serviceInfo = service.Service.Info
+	Api             = new(api)
+	serviceInfo     = service.Service.Info
+	serviceAsdasdas = service.Service.Asdasdas
 )
 
-type api struct{ Info info }
+type api struct {
+	Info     info
+	Asdasdas asdsadsa
+}

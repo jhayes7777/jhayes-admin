@@ -2,4 +2,7 @@ package service
 
 var Service = new(service)
 
-type service struct{ Info info }
+type service struct {
+	Info     info
+	Asdasdas asdsadsa
+}

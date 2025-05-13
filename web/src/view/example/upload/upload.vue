@@ -59,7 +59,10 @@
           <el-table :data="tableData">
             <el-table-column align="left" label="预览" width="100">
               <template #default="scope">
-                <CustomPic pic-type="file" :pic-src="scope.row.url" preview/>
+                <div v-if="scope.row.name.split('.').at(-1)=='glb'||scope.row.name.split('.').at(-1)=='fbx'||scope.row.name.split('.').at(-1)=='FBX'||scope.row.name.split('.').at(-1)=='GLB'">
+                  3D模型
+                </div>
+                <CustomPic pic-type="file" v-else :pic-src="scope.row.url" preview/>
               </template>
             </el-table-column>
             <el-table-column align="left" label="日期" prop="UpdatedAt" width="180">
