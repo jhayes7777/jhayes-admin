@@ -258,6 +258,7 @@ const deleteFileFunc = async (row) => {
 }
 
 const downloadFile = (row) => {
+  console.log(row,'sdsds')
   if (row.url.indexOf('http://') > -1 || row.url.indexOf('https://') > -1) {
     downloadImage(row.url, row.name)
   } else {
