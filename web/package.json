@@ -43,6 +43,7 @@
     "spark-md5": "^3.0.2",
     "tailwindcss": "^3.4.10",
     "three": "^0.176.0",
+    "three-orbit-controls": "^82.1.0",
     "universal-cookie": "^7",
     "vform3-builds": "^3.0.10",
     "vite-auto-import-svg": "^1.5.0",

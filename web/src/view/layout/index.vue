@@ -32,7 +32,7 @@
           <router-view v-if="reloadFlag" v-slot="{ Component, route }">
             <div
               id="gva-base-load-dom"
-              class="gva-body-h bg-gray-50 dark:bg-slate-800"
+              class="gva-body-h bg-gray-50 dark:bg-slate-800 relative"
             >
               <transition mode="out-in" :name="route.meta.transitionType || config.transition_type">
                 <keep-alive :include="routerStore.keepAliveRouters">

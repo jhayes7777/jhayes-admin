@@ -29,7 +29,7 @@
   }
 
   .gva-body-h {
-    min-height: calc(100% - 3rem);
+    min-height: calc(100% - 1rem);
   }
 
   .gva-container {
