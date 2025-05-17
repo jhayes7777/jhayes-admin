@@ -69,7 +69,7 @@
       init()
       renderModel()
       gltfModel1(
-        'http://localhost:8080/api/' +
+        '/api/' +
           tableData.value[Math.floor(Math.random() * tableData.value.length)]
       )
       // 创建辉光圆环
@@ -121,11 +121,10 @@
       }
     })
     gltfModel1(
-      'http://localhost:8080/api/' +
+      '/api/' +
         tableData.value[Math.floor(Math.random() * tableData.value.length)]
     )
     createGlowRing()
-
   }
   // 清理函数
   const cleanup = () => {
