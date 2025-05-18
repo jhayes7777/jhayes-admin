@@ -83,7 +83,7 @@ hua-wei-obs:
     access-key: you-access-key
     secret-key: you-secret-key
 jwt:
-    signing-key: 679c4bff-19b9-466d-a3ab-7f0aa87ad9d1
+    signing-key: 929999ee-9624-4713-a12d-8cdd2e0d492a
     expires-time: 7d
     buffer-time: 1d
     issuer: qmPlus
@@ -139,7 +139,7 @@ mysql:
     config: charset=utf8mb4&parseTime=True&loc=Local
     db-name: gva
     username: root
-    password: qwecaojin123
+    password: QWEcaojin123
     path: 127.0.0.1
     engine: ""
     log-mode: error
