@@ -135,7 +135,7 @@ mssql:
     log-zap: false
 mysql:
     prefix: ""
-    port: "3307"
+    port: "13306"
     config: charset=utf8mb4&parseTime=True&loc=Local
     db-name: gva
     username: root
@@ -185,7 +185,7 @@ qiniu:
     use-cdn-domains: false
 redis:
     name: ""
-    addr: 127.0.0.1:6379
+    addr: 127.0.0.1:16379
     password: ""
     db: 0
     useCluster: false
@@ -195,7 +195,7 @@ redis:
         - 172.21.0.2:7002
 redis-list:
     - name: cache
-      addr: 127.0.0.1:6379
+      addr: 127.0.0.1:16379
       password: ""
       db: 0
       useCluster: false
